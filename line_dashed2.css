@@ -1,0 +1,40 @@
+.container__line__dashed{
+    display: flex;
+    justify-content: center;
+}
+.line__dashed{
+    border: 4px dashed red;
+    width: 200px;
+    border-radius: 50px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px red;
+    animation: borderAnimation 5s linear infinite;
+    background-size: 1400% 100%;
+  }
+  @keyframes borderAnimation {
+    0% {
+      border-color: red;
+    }
+    14% {
+      border-color: orange;
+    }
+    29% {
+      border-color: yellow;
+    }
+    43% {
+      border-color: green;
+    }
+    57% {
+      border-color: blue;
+    }
+    71% {
+      border-color: indigo;
+    }
+    86% {
+      border-color: violet;
+    }
+    100% {
+      border-color: red;
+    }
+}

@@ -1,0 +1,22 @@
+.Kitt{
+    display: flex;
+    justify-content: center;
+}
+.Kitt .light {
+    display: inline-block;
+    width: 50px;
+    height: 10px;
+    border: 1px solid #333;
+    margin-right: 2px;
+    transition: all 120ms ease-in-out;
+}
+
+.Kitt .light:last-of-type {
+    margin-right: 0;
+}
+
+.Kitt .light.on {
+    border-color: #ff4000;
+    background: #ffa080;
+    box-shadow: 0 0 32px #ff4000, 0 0 10px #ff4000, 0 0 24px #ff4000 inset;
+}
